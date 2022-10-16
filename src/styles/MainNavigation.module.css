@@ -1,0 +1,29 @@
+.header {
+  padding: 0rem;
+  background-color: rgb(46, 48, 48);
+  padding: 25px 0;
+  margin-bottom: 6rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.header a {
+  color: #e5e5e5;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+.header a:hover {
+  color: green;
+}
+
+.header a:active,
+.header a.active {
+  color: #fcb66b;
+}
+.list {
+  list-style: none;
+}

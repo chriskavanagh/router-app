@@ -1,15 +1,20 @@
-//import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import ErrorPage from "./pages/ErrorPage";
+import RootLayout from "./pages/RootLayout";
+import WelcomePage from "./pages/WelcomePage";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+// Routes
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [{ index: true, element: <WelcomePage /> }],
+  },
+]);
 
 function App() {
-  //const [count, setCount] = useState(0);
-
-  return (
-    <div className="App">
-      <h1>React Router 6.4</h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
