@@ -1,0 +1,7 @@
+.cars__wrapper {
+  display: flex;
+}
+.cars__text {
+  font-size: 3.7rem;
+  margin-bottom: 2.5rem;
+}

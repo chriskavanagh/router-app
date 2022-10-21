@@ -1,5 +1,6 @@
-import ErrorPage from "./pages/ErrorPage";
+import Cars from "./pages/Cars";
 import About from "./pages/About";
+import ErrorPage from "./pages/ErrorPage";
 import RootLayout from "./pages/RootLayout";
 import WelcomePage from "./pages/WelcomePage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -13,6 +14,14 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <WelcomePage /> },
       { path: "/about", element: <About /> },
+      {
+        path: "/cars",
+        element: <Cars />,
+      },
+      {
+        path: "/trucks",
+        element: <Trucks />,
+      },
     ],
   },
 ]);

@@ -1,8 +1,9 @@
-.welcome__wrapper {
+.about__wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .top__text {
   font-size: 3.7rem;
   margin-bottom: 2.5rem;
@@ -10,19 +11,4 @@
 .bottom__text {
   color: #c5b358;
   font-size: 1.3rem;
-}
-img {
-  margin-top: 6rem;
-}
-.showcase {
-  display: flex;
-}
-.pic {
-  text-align: center;
-}
-.model {
-  font-weight: 800;
-}
-.mpg {
-  color: #d3d3d3;
 }
