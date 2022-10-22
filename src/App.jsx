@@ -1,5 +1,6 @@
 import Cars from "./pages/Cars";
 import About from "./pages/About";
+import Trucks from "./pages/Trucks";
 import ErrorPage from "./pages/ErrorPage";
 import RootLayout from "./pages/RootLayout";
 import WelcomePage from "./pages/WelcomePage";

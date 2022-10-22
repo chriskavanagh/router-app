@@ -39,6 +39,17 @@ function MainNavigation() {
               Cars
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/trucks"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+              end
+            >
+              Trucks
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
