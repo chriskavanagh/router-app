@@ -3,7 +3,7 @@ import styles from "../styles/WelcomePage.module.css";
 function WelcomePage() {
   return (
     <>
-      <div className={styles.welcome__wrapper}>
+      <section className={styles.welcome__wrapper}>
         <h1 className={styles.top__text}>JR's Auto Sales</h1>
         <p className={styles.bottom__text}>3357 Kelly Ln Roanoke, VA</p>
         <div className={styles.showcase}>
@@ -33,7 +33,7 @@ function WelcomePage() {
             <p className={styles.mpg}>28/35 est MPG</p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
