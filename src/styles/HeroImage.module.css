@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+}
+
+.hero {
+  background-size: cover;
+  height: 93vh;
+  width: 100vw;
+}
+.text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: rgba(26, 13, 13, 0.747);
+  padding: 40px 50px;
+  border-radius: 10px;
+}
+.top__text {
+  font-size: 4.7rem;
+  margin-bottom: 3rem;
+  font-family: "Abril Fatface", display;
+  color: #8d800a;
+  text-shadow: 4px 4px 2px #5e574e;
+}
+.bottom__text {
+  color: rgb(232, 235, 74);
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  font-family: "Abel", sans-serif;
+}
+.txt__wrapper {
+  filter: contrast(40%);
+}
+.service {
+  margin-bottom: 5px;
+  filter: contrast(80%);
+  font-size: 19px;
+}
+.parts {
+  filter: contrast(80%);
+  font-size: 19px;
+}

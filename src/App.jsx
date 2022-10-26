@@ -3,7 +3,8 @@ import About from "./pages/About";
 import Trucks from "./pages/Trucks";
 import ErrorPage from "./pages/ErrorPage";
 import RootLayout from "./pages/RootLayout";
-import WelcomePage from "./pages/WelcomePage";
+//import HomePage from "./pages/HomePage";
+import HeroImage from "./components/HeroImage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Routes
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      { index: true, element: <WelcomePage /> },
+      { index: true, element: <HeroImage /> },
       { path: "/about", element: <About /> },
       {
         path: "/cars",
