@@ -1,7 +1,6 @@
 .wrapper {
   position: relative;
 }
-
 .hero {
   background-size: cover;
   height: 93vh;
@@ -13,32 +12,44 @@
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
-  background-color: rgba(26, 13, 13, 0.747);
-  padding: 40px 50px;
-  border-radius: 10px;
+  width: 100%;
 }
 .top__text {
-  font-size: 4.7rem;
-  margin-bottom: 3rem;
+  font-size: 8.7rem;
+  margin-bottom: 5rem;
   font-family: "Abril Fatface", display;
-  color: #8d800a;
-  text-shadow: 4px 4px 2px #5e574e;
+  color: #8d0a0a;
+  word-spacing: 4px;
+  text-shadow: 4px 4px 2px #362309;
 }
 .bottom__text {
-  color: rgb(232, 235, 74);
-  font-size: 2.3rem;
-  margin-bottom: 2rem;
+  color: rgb(160, 5, 5);
+  font-size: 4.3rem;
+  margin-bottom: 3rem;
   font-family: "Abel", sans-serif;
 }
 .txt__wrapper {
-  filter: contrast(40%);
+  filter: contrast(80%);
 }
 .service {
   margin-bottom: 5px;
-  filter: contrast(80%);
+  filter: contrast(60%);
   font-size: 19px;
 }
 .parts {
-  filter: contrast(80%);
+  /* filter: contrast(80%); */
   font-size: 19px;
+}
+.ribbon {
+  display: flex;
+  background-color: white;
+  /* opacity: 0.8; */
+  padding: 12px 0;
+  width: 100%;
+  color: rgb(83, 5, 5);
+
+  /* align-items: center; */
+  justify-content: space-evenly;
+
+  /* font-family: "nixie_oneregular"; */
 }
