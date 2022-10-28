@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaHome, FaPhoneVolume } from "react-icons/fa";
 export default function HeroImage() {
   return (
     <section className={styles.wrapper}>
-      <img src="images/supra.jpg" className={styles.hero} />
+      <img src="images/supra.webp" className={styles.hero} />
       <div className={styles.text}>
         <h1 className={styles.top__text}>JR's Auto Sales</h1>
         <div className={styles.ribbon}>

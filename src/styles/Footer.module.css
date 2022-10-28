@@ -1,12 +1,24 @@
 .footer {
-  display: flex;
-  flex-grow: 0;
   background-color: rgb(84, 85, 85);
   width: 100%;
   padding: 10px 0;
   justify-content: center;
 }
+.wrapper {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+}
 .txt {
-  font-size: 14px;
+  font-size: 16px;
   color: #8a942d;
+  margin-block: 1rem 1rem;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.socialMedia > img {
+  margin-inline: 0 0.5rem;
 }
