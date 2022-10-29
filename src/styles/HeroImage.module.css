@@ -54,3 +54,8 @@
   font-family: "nixie_oneregular";
   font-size: 20px;
 }
+.animation {
+  display: absolute;
+  width: 100vw;
+  background-color: black;
+}

@@ -4,6 +4,7 @@ import Trucks from "./pages/Trucks";
 import ErrorPage from "./pages/ErrorPage";
 import RootLayout from "./pages/RootLayout";
 //import HomePage from "./pages/HomePage";
+import Framer from "./pages/Framer";
 import HeroImage from "./components/HeroImage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/trucks",
         element: <Trucks />,
+      },
+      {
+        path: "/test",
+        element: <Framer />,
       },
     ],
   },
