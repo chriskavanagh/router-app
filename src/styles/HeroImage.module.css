@@ -7,6 +7,7 @@
   height: 93vh;
   width: 100vw;
 }
+
 .text {
   position: absolute;
   top: 20%;
@@ -23,6 +24,10 @@
   word-spacing: 4px;
   /* text-shadow: 4px 4px 2px #362309; */
   text-shadow: 2px 2px red;
+}
+.bolt {
+  position: relative;
+  top: -60px;
 }
 .bottom__text {
   color: rgb(160, 5, 5);

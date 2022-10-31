@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 import classes from "../styles/MainNavigation.module.css";
 
 function MainNavigation() {
@@ -6,6 +7,9 @@ function MainNavigation() {
     <header className={classes.header}>
       <nav>
         <ul className={classes.list}>
+          <li>
+            <FaBars size={"2em"} className={classes.hamburger} />
+          </li>
           <li>
             <NavLink
               to="/"

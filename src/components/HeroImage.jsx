@@ -7,8 +7,18 @@ export default function HeroImage() {
   return (
     <section className={styles.wrapper}>
       <img src="images/supra.webp" className={styles.hero} />
+
       <div className={styles.text}>
-        <h1 className={styles.top__text}>JR's Auto Sales</h1>
+        <h1 className={styles.top__text}>
+          JR
+          <span className={styles.bolt}>
+            <img
+              width="30"
+              src="https://upload.wikimedia.org/wikipedia/commons/4/41/Angular_lightningbolt.svg"
+            />
+          </span>
+          s Auto Sales{" "}
+        </h1>
         <div className={styles.ribbon}>
           <h3>
             <FaHome style={{ marginRight: "8px" }} />
