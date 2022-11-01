@@ -56,6 +56,17 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
+      <div className={classes.right}>
+        <ul className={classes.list__right}>
+          <li>
+            <h4>LOG IN</h4>
+          </li>
+          <div className={classes.sep}></div>
+          <li>
+            <button className={classes.btn}>Sign Up</button>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 }
