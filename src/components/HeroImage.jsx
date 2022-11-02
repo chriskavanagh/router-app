@@ -7,7 +7,6 @@ export default function HeroImage() {
   return (
     <section className={styles.wrapper}>
       <img src="images/supra.webp" className={styles.hero} />
-
       <div className={styles.text}>
         <h1 className={styles.top__text}>
           JR

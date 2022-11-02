@@ -24,6 +24,7 @@
   word-spacing: 4px;
   /* text-shadow: 4px 4px 2px #362309; */
   text-shadow: 2px 2px red;
+  backdrop-filter: blur(20px);
 }
 .bolt {
   position: relative;
@@ -49,7 +50,6 @@
 }
 .ribbon {
   display: flex;
-  background-color: white;
   /* opacity: 0.9; */
   padding: 12px 0;
   width: 100%;
@@ -58,6 +58,8 @@
   justify-content: space-evenly;
   font-family: "nixie_oneregular";
   font-size: 20px;
+  background-color: aliceblue;
+  /* background-image: url("./floor-tiles.svg"); */
 }
 .animate {
   display: absolute;

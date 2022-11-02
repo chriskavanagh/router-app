@@ -50,7 +50,7 @@
 }
 .btn {
   background-color: white;
-  color: #fcb66b;
+  color: rgb(83, 5, 5);
   padding: 8px 18px;
   border-radius: 17px;
   font-weight: bold;
@@ -60,4 +60,7 @@
   height: 33px;
   background-color: whitesmoke;
   width: 1px;
+}
+.logIn {
+  color: #fcb66b;
 }

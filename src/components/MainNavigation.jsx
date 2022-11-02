@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaUserCheck, FaUserPlus } from "react-icons/fa";
 import classes from "../styles/MainNavigation.module.css";
 
 function MainNavigation() {
@@ -58,13 +58,20 @@ function MainNavigation() {
       </nav>
       <div className={classes.right}>
         <ul className={classes.list__right}>
+          <div>
+            <FaUserCheck size={"1.7em"} />
+          </div>
           <li>
-            <h4>LOG IN</h4>
+            <h4 className={classes.logIn}>LOG IN</h4>
           </li>
           <div className={classes.sep}></div>
+
           <li>
-            <button className={classes.btn}>Sign Up</button>
+            <button className={classes.btn}>SIGN UP</button>
           </li>
+          <div>
+            <FaUserPlus size={"1.7em"} />
+          </div>
         </ul>
       </div>
     </header>
