@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(84, 85, 85);
+  background-color: #3b3d41;
   width: 100%;
   padding: 10px 0;
   justify-content: center;
@@ -18,7 +18,13 @@
   display: flex;
   justify-content: center;
   padding: 10px 20px;
+  flex-direction: column;
+  row-gap: 15px;
 }
 .socialMedia > img {
   margin-inline: 0 0.5rem;
+}
+.socialMedia h3 {
+  font-size: 24px;
+  color: #ffc107;
 }

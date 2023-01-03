@@ -13,14 +13,15 @@
   padding: 15px 0;
   gap: 5.2rem;
 }
+/* .header a::before {
+  padding: 15px 7px;
+  background-color: rgb(174, 179, 179);
+} */
 
 .header a {
   color: #e5e5e5;
-  font-size: 1.15rem;
+  font-size: 1rem;
   text-decoration: none;
-}
-.header a:hover {
-  color: #8a942d;
 }
 
 .header a:active,
